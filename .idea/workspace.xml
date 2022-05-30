@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5802c2-8b82-4d1f-a185-9f2fd4c725dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ToDoBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ToDoBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/botapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapp/management/commands/annunciator.py" beforeDir="false" afterPath="$PROJECT_DIR$/botapp/management/commands/annunciator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapp/management/commands/telegram_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/botapp/management/commands/telegram_bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapp/telegram/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/botapp/telegram/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botapp/telegram/generate_keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/botapp/telegram/generate_keyboards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

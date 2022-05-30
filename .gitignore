@@ -163,4 +163,5 @@ idea/
 venv
 logs
 todobot/settings.py
-botapp/__pycache__
+*__pycache__*
+*_idea*
