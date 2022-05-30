@@ -1,0 +1,4 @@
+venv
+logs
+todobot/settings.py
+todobot/base_settings.py
