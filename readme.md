@@ -14,6 +14,23 @@ loguru = 0.6.0
 В файле settings.py необходимо прописать имя базы, имя пользователя и пароль. А также токен бота в переменную TOKEN. Путь к файлу: ./todobot/settings.py
 Значения хранятся в списке DATABASES
 
+Пример конфига
+```python
+SECRET_KEY = ""
+DEBUG = True
+
+BOT_TOKEN = ""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': "",
+        'USER': "",
+        'PASSWORD': ""
+    }
+}
+```
+
+
 Для развертывания проекта необходимо запустить:
 
 1) python manage.py runserver

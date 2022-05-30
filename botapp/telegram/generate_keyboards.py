@@ -1,7 +1,9 @@
 from telebot import types
 from loguru import logger
 
+
 #В данный модуль вынесена генерация различных меню, кнопок, задач
+
 
 def generate_announce_menu():
     yes_button = types.InlineKeyboardButton("Да", callback_data="YES")

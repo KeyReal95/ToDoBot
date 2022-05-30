@@ -164,4 +164,6 @@ venv
 logs
 todobot/settings.py
 *__pycache__*
-*_idea*
+/.idea/
+*/.idea/workspace.xml
+*/.idea/tasks.xml
