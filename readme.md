@@ -37,4 +37,9 @@ DATABASES = {
 2) python manage.py telegram_bot // Модуль телеграм бота
 3) python manage.py annunciator // Модуль для отправки уведомлений
 
-Для запуска бота просто нужно ввести команду "/start"
+Также необходимо произвести миграции с базой:
+
+1) python manage.py makemigrations
+2) python manage.py migrate
+
+Для запуска бота необходимо отправить ему команду "/start"
