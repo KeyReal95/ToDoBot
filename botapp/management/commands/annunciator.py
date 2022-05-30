@@ -4,8 +4,7 @@ from django.core.management.base import BaseCommand
 from django.conf import settings
 from loguru import logger
 from botapp.models import Task
-from botapp.telegram.sends import send_notification
-
+from botapp.telegram.bot import send_notification
 
 class Command(BaseCommand):
     # Класс позволяющий запускать модуль оповещения отдельно от django и бота

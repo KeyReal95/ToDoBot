@@ -2,6 +2,7 @@ from telebot import types
 from loguru import logger
 
 #В данный модуль вынесена генерация различных меню, кнопок, задач
+
 def generate_announce_menu():
     yes_button = types.InlineKeyboardButton("Да", callback_data="YES")
     no_button = types.InlineKeyboardButton("Нет", callback_data="NO")
@@ -23,5 +24,7 @@ def generate_menu_task(tasks: list):
     for task in tasks:
         button = types.InlineKeyboardButton(task.name, callback_data=f"closetask#{task.id}", )
         markup_tasks.add(button)
+    back_to_menu = types.InlineKeyboardButton("Назад в меню", callback_data="back")
+    markup_tasks.add(back_to_menu)
     logger.info("сформирован список задач")
     return markup_tasks
